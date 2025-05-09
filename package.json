@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "generate-api": "openapi-generator-cli generate -i http://localhost:8080/swagger-json -g typescript-fetch -o ./src/api"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.20.0"
+  }
+}
